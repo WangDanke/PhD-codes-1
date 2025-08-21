@@ -13,7 +13,7 @@ if player == "石头":
   else:
       print('You LOSE')
 elif player == '剪刀':
-  if comouter == '石头':
+  if computer == '石头':
       print('You LOSE')
   elif computer == '剪刀':
       print('平局')

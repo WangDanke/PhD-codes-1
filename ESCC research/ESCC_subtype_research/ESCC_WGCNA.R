@@ -54,9 +54,6 @@ write.csv(net_information,file="net_information.csv",quote = F, row.names = T)
 save(net_information, file = "net_information.RData", quote = F, row.names = T)
 
 
-
-
-
 ###find the relationship between modules 
 net
 MEs = net$MEs
